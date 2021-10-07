@@ -1,0 +1,325 @@
+@media only screen  and (max-width: 1200px) {
+    #app{
+        overflow: hidden;
+    }
+    .header {
+ 
+}
+    .areaPlay {
+      
+width: 800px;
+    }
+
+    .header__menu .list-menu {
+   
+width: 600px;
+   
+background-size: contain;
+   
+background-repeat: no-repeat;
+}
+
+    .header__menu .list-menu .menu-item {
+  
+font-size: 28px;
+  
+padding-left: 17px;
+  
+padding-right: 55px;
+  
+}
+
+    .areaPlay .left {
+       
+flex-basis: 49%;
+    }
+
+    .areaPlay .left .container-type .type .car, .areaPlay .left .container-type .type .map, .areaPlay .left .container-type .type .figure, .areaPlay .left .container-type .specialPlay {
+       
+font-size: 19px;
+       
+line-height: 189px;
+    }
+
+    .areaPlay .left .container-type .specialPlay .text {
+      
+width: 100%;
+      
+text-align: center;
+      
+top: -30px;
+      
+line-height: 0;
+    }
+    .areaPlay .right {
+       
+flex-basis: 49%;
+    }
+  
+
+    .areaPlay .right .boardRank .level {
+        
+font-size: 20px;
+        
+top: 79px;
+    }
+    .areaPlay .right .boardRank .container-rank {
+        
+top: 106px;
+        
+width: 95%;
+        
+height: 114px;
+        
+margin-left: -9px;
+    }
+    .areaPlay .right .boardRank .container-rank .rank .line-background {
+      
+height: 37px;
+    }
+
+    .container-areaPlay {
+ 
+height: 606px;
+ 
+}
+    .areaFigure {
+    width: 950px;
+    margin: auto;
+    }
+
+    .areaFigure .mainFigure img {
+     
+width: 674px;
+    }
+ 
+
+    .container-figure{
+    height: 800px;
+}
+
+    .areaFigure .listFigure {
+      
+height: 500px;
+      
+width: 100%;
+      
+margin: 16px 0;
+    }
+    .areaFigure .selectFigure .arrow-up,.areaFigure .selectFigure .arrow-down,.areaFigure2 .selectFigure .arrow-up,  .areaFigure2 .selectFigure .arrow-down,.areaFigure3 .selectFigure .arrow-up,  .areaFigure3 .selectFigure .arrow-down {
+    
+width: 80px;
+    
+height: 66px;
+    }
+   
+    .areaFigure2 .listFigure .listFigure-item {
+    }
+    .areaFigure2 {
+ 
+width: 950px;
+ 
+padding: 0;
+ 
+margin-top: 36px;
+}
+    .areaFigure2 .selectFigure {
+      
+width: 280px;
+      
+margin-top: 0px;
+      
+margin-left: 4px;
+    }
+    .areaFigure2 .listFigure {
+      
+height: 508px;
+      
+width: 100%;
+    }
+    .areaFigure2 .mainFigure img {
+       
+width: 590px;
+    }
+
+    .container-car {
+  
+height: 800px;
+  
+}
+
+    .areaFigure3 {
+      
+width: 950px;
+    }
+
+    .areaFigure3 .listFigure .listFigure-item {
+    }
+    .areaFigure3 .listFigure {
+       
+height: 503px;
+       
+width: 70%;
+       
+margin: auto;
+    }
+    .areaFigure3 .mainFigure img {
+       
+width: 450px;
+       
+height: 330px;
+       
+margin-left: 40px;
+    }
+    .areaFigure3 .selectFigure {
+    width: 303px;
+    margin-left: -7px;
+    }
+    .container-map {
+    
+height: 800px;
+    }
+    .areaSpecialPlay .logo {
+     
+    }
+    .areaSpecialPlay {
+    height: 680px;
+}
+    .areaSpecialPlay img.logo {
+    
+width: 310px;
+    }
+
+    .areaPlay .right .boardRank .container-rank .rank .metal {
+  
+width: 30px;
+  
+height: 30px;
+  
+top: 2px;
+}
+    .areaPlay .right .boardRank .container-rank .rank .player  {
+  
+font-size: 20px;
+  
+top: 2px;
+  
+left: 51px;
+}
+    .areaPlay .right .boardRank .container-rank .rank .time {
+    
+font-size: 18px;
+    
+top: 5px;
+    
+right: 27px;
+}
+
+.lineFigure .text{
+ 
+width: 100%;
+ 
+text-align: center;
+ 
+font-size: 60px;
+ 
+top: -4px;
+}
+.lineFigure2 .text {
+    
+width: 100%;
+    
+font-size: 60px;
+    
+text-align: center;
+    
+top: -4px;
+}
+.lineFigure3 .text {
+  
+width: 100%;
+  
+text-align: center;
+  
+font-size: 60px;
+  
+top: -4px;
+}
+
+.lineFigure img, .lineFigure2 img,.lineFigure3 img {
+    
+height: 80px;
+}
+
+
+.areaPlay .left .container-type .specialPlay img{
+    height: 70px;
+    top: -57px;
+}
+.play .btnPlay {
+    
+width: 280px;
+}
+
+.areaPlay .left img {
+    
+width: 100%;
+    
+height: 300px;
+}
+
+.play img {
+   
+height: 80px;
+}
+
+
+.areaPlay .left .container-type {margin-top: -59px;}
+
+.areaPlay .right .container-img .img-left, .areaPlay .right .container-img .img-right {
+    width: 100%;
+    height: 300px;
+}
+
+.areaFigure .listFigure::-webkit-scrollbar,.areaFigure2 .listFigure::-webkit-scrollbar,.areaFigure3 .listFigure::-webkit-scrollbar   {
+    display: none;
+  }
+
+  .whatIsTheCrystal, .whatIsTheGem, .whatIsTheCoin{width: 120%;margin-left: -10%;}
+ 
+   
+ 
+.areaPlay .left .container-type .type .car,.areaPlay .left .container-type .type .map,.areaPlay .left .container-type .type .figure{
+    flex-basis: 28%;
+}
+
+.container-specialPlay{
+    height: 760px;
+}
+
+/* ----------- footer ----------- */
+
+.footer-container{}
+.footer-container .footer{
+    width: 800px;
+}
+.footer-container .footer .footer__navbar{justify-content: space-around;padding: 30px 0px;}
+
+
+#video{height:300px ;}
+#lion{
+    width: 724px;
+    top: -54px;
+}
+
+.areaFigure .listFigure li {
+    margin-bottom: -4px;
+    text-align: center;
+}
+.areaFigure2 .listFigure li {
+}
+.areaFigure3 .listFigure li {
+    width: 97%;
+    margin-bottom: 28px;
+}
+      }

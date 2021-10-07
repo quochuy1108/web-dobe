@@ -1,0 +1,30 @@
+@media only screen and (max-width: 415px) {
+  #app {
+    width: 100%;
+}
+  .header__menu .list-menu { width: 310px; }
+  .header__menu .list-menu .menu-item { padding-left: 25px; padding-right: 11px; font-size: 15px; }
+  .header__menu .list-menu .menu-item a { }
+  .boardNews {width: 310px;top: 0px;height: 500px;}
+  .board {height: 100%;}
+  .boardNews .listNews {top: 29px;margin-left: 19px;width: 268px;height: 429px;}
+ 
+  .boardNews .listNews .listNews-item {height: 73px;margin-right: 16px;margin-bottom: 31px;width: 92%;}
+  .boardNews .listNews .listNews-item img { width: 36%; left: -1px; top: -2px; height: 105%; }
+  .boardNews .listNews .listNews-item .notice-title { font-size: 16px; left: 38%; top: 7px; }
+  .boardNews .listNews .listNews-item .notice-sub { font-size: 14px; left: 38%; top: 26px; }
+  .boardNews .listNews .listNews-item .line { }
+  .boardNews .listNews .listNews-item .view-more { font-size: 15px; right: 10px; }
+  .boardNews .scrollBar { top: 43px; right: 37px; width: 4%; display: none; }
+  /* ----------- footer ----------- */
+
+  .header__menu {
+ 
+    padding-top: 0px;
+}
+.header {
+  /* padding: 0px 30px; */
+  height: 100vh;
+}
+
+}

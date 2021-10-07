@@ -1,0 +1,38 @@
+@media only screen and (max-width: 340px) {
+ 
+    .header__menu .list-menu {
+       
+width: 270px;
+    }
+    .header__menu .list-menu .menu-item {
+        
+padding-left: 15px;
+        
+padding-right: 10px;
+    }
+   
+  
+     .boardNews {
+      
+width: 260px;
+      
+height: 380px;
+      
+top: 0;
+}
+
+     .boardNews .scrollBar{
+        
+right: 34px;
+    }
+    .boardNews .listNews {
+        top: 29px;
+        margin-left: 19px;
+        width: 87%;
+        height: 310px;
+    }
+    .header {
+    
+height: 570px;
+    }
+}

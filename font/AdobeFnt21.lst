@@ -1,0 +1,65 @@
+%!Adobe-FontList 1.20
+%Locale:0x809
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:#9Slide07Altus-Regular
+FamilyName:#9Slide07 Altus
+StyleName:Regular
+FullName:#9Slide07 Altus Regular
+MenuName:#9Slide07 Altus
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Admin\Desktop\racing-20210926T145641Z-001\racing\Font\#9Slide07 IcielAltus.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:376640
+FileModTime:1632589594
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,#9Slide07 Altus Regular
+NameArray:0,Mac,4,#9Slide07 Altus Regular
+NameArray:0,Win,1,#9Slide07 Altus
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:#9Slide07SVN-HogfishRegular
+FamilyName:#9Slide07 SVNHogfish
+StyleName:Regular
+FullName:#9Slide07 SVN-Hogfish Regular
+MenuName:#9Slide07 SVNHogfish
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Admin\Desktop\racing-20210926T145641Z-001\racing\Font\#9Slide07 SVN-Hogfish.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:199740
+FileModTime:1632589598
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,#9Slide07 SVN-Hogfish Regular
+NameArray:0,Mac,4,#9Slide07 SVN-Hogfish Regular
+NameArray:0,Win,1,#9Slide07 SVNHogfish
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Admin\Desktop\racing-20210926T145641Z-001\racing\Font\9Slide07-IcielAltus.woff
+FileModTime:1632591192
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Admin\Desktop\racing-20210926T145641Z-001\racing\Font\9Slide07-SVN-Hogfish.woff
+FileModTime:1632591214
+%EndFont
+

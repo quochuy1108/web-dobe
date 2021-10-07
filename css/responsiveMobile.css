@@ -1,0 +1,328 @@
+
+
+  @media only screen and (max-width: 640px) {
+    #app{
+        overflow: hidden;
+    }
+    .header {
+ 
+height: 93vh;
+ 
+}
+    .areaPlay {
+        width: 100%;
+        display: block;
+        padding-top: 25px;
+    }
+
+    .header__menu .list-menu {
+   
+width: 310px;
+   
+background-size: contain;
+   
+background-repeat: no-repeat;
+   
+padding: 0;
+}
+
+    .header__menu .list-menu .menu-item {
+    font-size: 15px;
+    padding-left: 27px;
+    padding-right: 8px;
+    }
+
+    .areaPlay .left {
+        padding: 0px 20px;
+    }
+
+    .areaPlay .left .container-type .type .car, .areaPlay .left .container-type .type .map, .areaPlay .left .container-type .type .figure, .areaPlay .left .container-type .specialPlay {
+        color: var(--primary-color-text);
+        font-weight: 700;
+        font-size: 16px;
+        flex-basis: 34%;
+    }
+
+    .areaPlay .left .container-type .specialPlay .text {
+        top: 47px;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+        line-height: 0;
+    }
+    .areaPlay .right {
+        margin-top: 100px;
+        padding: 0px 25px;
+    }
+    .container-figure {margin-top: 0}
+
+    .areaPlay .right .boardRank{width: 100%;margin: auto;margin-top: 70px;}
+
+    .areaPlay .right .boardRank .level {
+        font-size: 16px;
+        margin-top: 0%;
+    }
+    .areaPlay .right .boardRank .container-rank {
+        height: 109px;
+        margin-left: -16px;
+        position: absolute;
+        top: 46%;
+        width: 98%;
+    }
+    .areaPlay .right .boardRank .container-rank .rank .line-background {
+      
+height: 38px;
+    }
+
+    .container-areaPlay {
+        height: 100%;
+margin-bottom: 100px;
+    }
+    .areaFigure {
+       
+margin: 0;
+       
+padding: 20px 0;
+       
+width: 480px;
+    }
+   
+    .areaFigure .mainFigure img {
+        width: 320px;
+    }
+   
+    .container-figure{height: 550px;
+        margin-top: -101px;}
+
+    .areaFigure .listFigure {
+      
+height: 295px;
+    }
+    .areaFigure .selectFigure .arrow-up,.areaFigure .selectFigure .arrow-down,.areaFigure2 .selectFigure .arrow-up,  .areaFigure2 .selectFigure .arrow-down,.areaFigure3 .selectFigure .arrow-up,  .areaFigure3 .selectFigure .arrow-down {
+    
+width: 66px;
+    
+height: 49px;
+    }
+   
+    .areaFigure2 .listFigure .listFigure-item {
+    }
+    .areaFigure2 {
+    width: 480px;
+    padding: 45px 0;
+    margin: 0;
+    }
+    .areaFigure2 .selectFigure {
+    width: 180px;
+    margin-left: 0;
+    }
+    .areaFigure2 .listFigure {
+      
+padding: 0px;
+      
+height: 309px;
+    }
+    .areaFigure2 .mainFigure img {
+        width: 300px;
+    }
+
+    .container-car {
+     height: 550px;
+    }
+
+    .areaFigure3 {
+        width: 480px;
+        padding: 26px 0px;
+    }
+
+    .areaFigure3 .listFigure .listFigure-item {
+    }
+    .areaFigure3 .listFigure {
+       
+height: 335px;
+    }
+    .areaFigure3 .mainFigure img {
+        width: 200px;
+        height: 50%;
+    }
+    .areaFigure3 .selectFigure {
+        width: 180px;
+        margin-left: 0;
+    }
+    .container-map {
+    height: 550px;
+    }
+    .areaSpecialPlay .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 38px;
+        z-index: 2;
+    }
+    .areaSpecialPlay {width: 100%;padding: 0;height: 300px;}
+    .areaSpecialPlay img.logo {
+        width: 142px;
+        top: 13px;
+        margin-left: -3px;
+    }
+
+    .areaPlay .right .boardRank .container-rank .rank .metal {
+    width: 26px;
+    height: 25px;
+    top: 1px;
+    left: 8px;
+}
+    .areaPlay .right .boardRank .container-rank .rank .player  {
+    font-size: 13px;
+    top: 4px;
+    left: 45px;
+}
+    .areaPlay .right .boardRank .container-rank .rank .time {
+    top: 3px;
+    right: 21px;
+    font-size: 14px;
+}
+
+.lineFigure .text{
+    font-size: 46px;
+    top: -4px;
+    width: 100%;
+    text-align: center;
+}
+.lineFigure2 .text {
+    font-size: 46px;
+    top: -4px;
+    width: 100%;
+    text-align: center;
+}
+.lineFigure3 .text {
+    width: 100%;
+    text-align: center;
+    font-size: 46px;
+    top: -4px;
+}
+
+.lineFigure img {
+    height: 60px;
+}
+      .lineFigure2 img{
+    height: 60px;
+}
+      .lineFigure3 img{
+    height: 60px;
+}
+
+.areaPlay .left .container-type .specialPlay img{height: 72px;top: 19px;}
+.play .btnPlay {
+    
+width: 190px;
+    
+top: -102px;
+}
+
+.areaPlay .left img {
+    height: 260px;
+}
+
+.play img {
+    height: 60px;
+}
+
+.areaPlay .right .container-img {
+}
+
+.areaPlay .right .container-img .img-left, .areaPlay .right .container-img .img-right {
+   
+width: 100%;
+   
+height: 272px;
+}
+.whatIsTheGem {
+    margin-top: -10px;
+}
+
+.areaPlay .left .container-type {
+    
+margin-top: -68px;
+}
+.areaPlay .left .container-type .specialPlay{margin-top: -78px;height: 0;}
+.container-whatIs{}
+.areaPlay .right .container-img .img-left, .areaPlay .right .container-img .img-right {flex-basis: 48%;}
+
+.areaFigure .listFigure::-webkit-scrollbar,.areaFigure2 .listFigure::-webkit-scrollbar,.areaFigure3 .listFigure::-webkit-scrollbar   {
+    display: none;
+  }
+
+
+  .whatIsTheCrystal, .whatIsTheGem, .whatIsTheCoin{width: 119%;margin-left: -11%;}
+  .container-whatIs .roadMap{
+    width: 123%;
+    margin-left: -45px;
+}
+  .container-whatIs .roadMap2{
+    width: 123%;
+    margin-left: -45px;
+}
+
+.areaPlay .right .boardRank img{width: 100%;}
+.container-rank-father{
+   
+}
+
+.container-rank-father #scrollBar{
+  
+margin-top: -96px;
+  
+height: 116px;
+  
+width: 20px;
+  
+margin-left: -26px;
+}
+.container-specialPlay{
+    height: 360px;
+}
+
+/* ----------- footer ----------- */
+
+.footer-container{height: 395px;}
+.footer-container .footer{
+    width: 320px;
+    padding: 24px 0px;
+}
+.footer-container .footer .footer__navbar{
+    padding: 0;
+    margin: 0;
+    justify-content: flex-start;
+    margin-left: -6px;
+}
+.footer-container .footer .footer__navbar .footer__navbar-item{
+  
+padding: 0;
+  
+margin: 0;
+  
+padding: 13px;
+}
+.footer-container .footer .footer__navbar .footer__navbar-item a{
+ 
+font-size: 21px;
+}
+.footer-container .footer .text{
+   
+text-align: left;
+   
+font-size: 22px;
+   
+margin-left: 5px;
+}
+.areaFigure .selectFigure {
+    width: 180px;
+}
+#lion{
+    width: 527px;
+    left: 49%;
+}
+
+      }
+

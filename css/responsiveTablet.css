@@ -1,0 +1,248 @@
+
+  @media only screen  and (max-width: 768px) {
+    #app{
+      overflow: hidden;
+    }
+
+    .areaPlay {
+      
+width: 640px;
+      
+padding-left: 20px;
+      
+padding-right: 20px;
+    }
+
+  
+
+    .areaPlay .left .container-type .type .car, .areaPlay .left .container-type .type .map, .areaPlay .left .container-type .type .figure, .areaPlay .left .container-type .specialPlay {
+    font-size: 14px;
+    }
+
+    .areaPlay .left .container-type .specialPlay .text {
+   
+top: 2px;
+   
+line-height: 0;
+}
+    .areaPlay .right {
+        
+    }
+    .container-figure {}
+
+    .areaPlay .right .boardRank{
+    top: -40px;
+}
+
+    .areaPlay .right .boardRank .level {
+       
+top: 61px;
+       
+font-size: 16px;
+    }
+    .areaPlay .right .boardRank .container-rank {
+      
+height: 88px;
+      
+top: 84px;
+    }
+    .areaPlay .right .boardRank .container-rank .rank .line-background {
+      
+height: 29px;
+    }
+
+    .container-areaPlay {
+      
+height: 490px;
+    }
+    .areaFigure {
+       
+width: 700px;
+       
+padding: 0;
+       
+margin-top: 34px;
+    }
+  
+    .areaFigure .mainFigure img {
+    width: 480px;
+    }
+  
+    .container-figure{height: 700px;}
+
+    .areaFigure .listFigure {
+      
+height: 373px;
+    }
+
+    .areaFigure2 {
+    
+width: 700px;
+    
+margin-top: 53px;
+    }
+    .areaFigure2 .selectFigure {
+    width: 227px;
+    }
+    .areaFigure2 .listFigure {
+      
+height: 393px;
+    }
+    .areaFigure2 .mainFigure img {
+    width: 400px;
+    margin-left: 0;
+    }
+
+    .container-car {
+    
+height: 700px;
+    }
+
+    .areaFigure3 {
+    width: 700px;
+    }
+
+    .areaFigure3 .listFigure .listFigure-item {
+}
+       
+    .areaFigure3 .listFigure {
+       
+height: 404px;
+    }
+    .areaFigure3 .mainFigure img {
+        width: 356px;
+        height: 255px;
+        margin-left: 0;
+    }
+    .areaFigure3 .selectFigure {
+        width: 227px;
+    }
+    .container-map {
+    height: 700px;
+    }
+    .areaSpecialPlay .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 38px;
+        z-index: 2;
+    }
+    .areaSpecialPlay {width: 100%;padding: 0;height: 701px;background-color: purple;}
+    .areaSpecialPlay img.logo {
+        width: 270px;
+        margin-left: 1px;
+        top: 54px;
+    }
+
+    .areaPlay .right .boardRank .container-rank .rank .metal {
+    width: 34px;
+    height: 31px;
+    top: 1px;
+}
+    .areaPlay .right .boardRank .container-rank .rank .player  {
+    font-size: 16px;
+    top: 4px;
+    left: 53px;
+}
+    .areaPlay .right .boardRank .container-rank .rank .time {
+    top: 6px;
+    right: 24px;
+    font-size: 14px;
+}
+
+.lineFigure .text{
+    font-size: 46px;
+    top: -4px;
+    width: 100%;
+    text-align: center;
+}
+.lineFigure2 .text {
+    font-size: 46px;
+    top: -4px;
+    width: 100%;
+    text-align: center;
+}
+.lineFigure3 .text {
+    width: 100%;
+    text-align: center;
+    font-size: 46px;
+    top: -4px;
+}
+
+.lineFigure img {
+    height: 60px;
+}
+      .lineFigure2 img{
+    height: 60px;
+}
+      .lineFigure3 img{
+    height: 60px;
+}
+
+.areaPlay .left .container-type .specialPlay img{height: 62px;top: -22px;}
+.play .btnPlay {
+    
+width: 260px;
+    
+top: -111px;
+}
+
+.areaPlay .left img {
+    height: 220px;
+}
+
+.play img {
+    height: 60px;
+}
+
+
+
+.areaPlay .right .container-img .img-left, .areaPlay .right .container-img .img-right {
+   
+width: 100%;
+   
+height: 272px;
+}
+.whatIsTheGem {
+    margin-top: -10px;
+}
+
+.areaPlay .left .container-type {
+    
+margin-top: -71px;
+}
+.areaPlay .left .container-type .specialPlay{margin-top: -50px;}
+.container-whatIs{}
+.areaPlay .right .container-img .img-left, .areaPlay .right .container-img .img-right {flex-basis: 49%;height: 220px;}
+
+.areaFigure .listFigure::-webkit-scrollbar,.areaFigure2 .listFigure::-webkit-scrollbar,.areaFigure3 .listFigure::-webkit-scrollbar {
+    display: none;
+  }
+
+  .whatIsTheCrystal, .whatIsTheGem, .whatIsTheCoin{width: 100%;margin-left: 0;}
+  .container-whatIs .roadMap{
+    width: 100%;
+    margin-left: 0;
+}
+  .container-whatIs .roadMap2{
+    width: 100%;
+    margin-left: 0;
+}
+
+/* ----------- footer ----------- */
+
+.footer-container{
+}
+.footer-container .footer{
+    width: 638px;
+}
+
+#video{height: 220px;}
+
+.areaFigure .selectFigure {
+    width: 227px;
+    cursor: pointer;
+    text-align: center;
+}
+#video{height: 220px;}
+      }
