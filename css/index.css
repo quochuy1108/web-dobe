@@ -275,6 +275,8 @@ a {
   color: var(--primary-color-text);
   font-weight: bold;
   text-shadow: 2px 3px 2px black;
+  width: 100%;
+  text-align: center;
 }
 .areaFigure {
   display: flex;
