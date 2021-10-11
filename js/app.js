@@ -39,7 +39,7 @@ const map_listCar = document.querySelector('.areaFigure3 .listFigure')
 
 
 const areaHeader = document.querySelector('.header')
-const areaPlay= document.querySelector('.container-areaPlay')
+const areaPlay = document.querySelector('.container-areaPlay')
 const positionAreaPlay = areaPlay.offsetTop
 
 
@@ -51,37 +51,57 @@ const heightListCar = document.querySelector('.areaFigure2 .listFigure').offsetH
 const heightListMap = document.querySelector('.areaFigure3 .listFigure').offsetHeight
 
 var count = 0
+var status = 'running'
 
 
 //---------- change Img -------------
 
-function selectFigure(){
-    figures.forEach((figure)=> {
-        figure.onclick = function() {
-         const srcFigure =  this.getAttribute('src');
-         const mainFigure = document.querySelector('.areaFigure .mainFigure img');
-         mainFigure.setAttribute('src',srcFigure)
-     }})
+function selectFigure() {
+    figures.forEach((figure) => {
+        const srcFigure = figure.getAttribute('src');
+        const mainFigure = document.querySelector('.areaFigure .mainFigure img');
+        figure.onclick = () => {
+            mainFigure.classList.add('effect')
+            mainFigure.setAttribute('src', srcFigure)
+
+        }
+        mainFigure.addEventListener('webkitAnimationEnd', () => {
+            mainFigure.classList.remove('effect')
+        })
+    })
+
+
 }
 selectFigure()
 
-function selectCar(){
-    car.forEach((car)=> {
-        car.onclick = function() {
-         const srcFigure =  this.getAttribute('src');
-         const mainFigure = document.querySelector('.areaFigure2 .mainFigure img');
-         mainFigure.setAttribute('src',srcFigure)
-     }})
+function selectCar() {
+    car.forEach((car) => {
+        const srcFigure = car.getAttribute('src');
+        const mainFigure = document.querySelector('.areaFigure2 .mainFigure img');
+        car.onclick = () => {
+
+            mainFigure.classList.add('effect')
+            mainFigure.setAttribute('src', srcFigure)
+        }
+        mainFigure.addEventListener('webkitAnimationEnd', () => {
+            mainFigure.classList.remove('effect')
+        })
+    })
 }
 selectCar()
 
-function selectMap(){
-    map.forEach((map)=> {
-        map.onclick = function() {
-         const srcFigure =  this.getAttribute('src');
-         const mainFigure = document.querySelector('.areaFigure3 .mainFigure img');
-         mainFigure.setAttribute('src',srcFigure)
-     }})
+function selectMap() {
+    map.forEach((map) => {
+        const srcFigure = map.getAttribute('src');
+        const mainFigure = document.querySelector('.areaFigure3 .mainFigure img');
+        map.onclick = () => {
+            mainFigure.classList.add('effect')
+            mainFigure.setAttribute('src', srcFigure)
+        }
+        mainFigure.addEventListener('webkitAnimationEnd', () => {
+            mainFigure.classList.remove('effect')
+        })
+    })
 }
 selectMap()
 
@@ -89,21 +109,21 @@ selectMap()
 
 
 //  click list figure
-figure_arrowDown.addEventListener('click',(e)=> {
-    figure_listFigure.scroll({top:588,behavior:'smooth'})
+figure_arrowDown.addEventListener('click', (e) => {
+    figure_listFigure.scroll({ top: 588, behavior: 'smooth' })
 })
-figure_arrowUp.addEventListener('click',(e)=> {
-    figure_listFigure.scroll({top:0,behavior:'smooth'})
+figure_arrowUp.addEventListener('click', (e) => {
+    figure_listFigure.scroll({ top: 0, behavior: 'smooth' })
 })
 
 //  scroll list car
-car_arrowDown.addEventListener('click',(e)=> {
-    car_listCar.scroll({top: 800,behavior:'smooth'})
+car_arrowDown.addEventListener('click', (e) => {
+    car_listCar.scroll({ top: 800, behavior: 'smooth' })
     // if(heightListCar == 517){
-      
+
     // }
-  
-    
+
+
     // else if(heightListCar == 420){
     //     car_listCar.scroll({top:count += 420,behavior:'smooth'})
     // }
@@ -113,15 +133,15 @@ car_arrowDown.addEventListener('click',(e)=> {
     //     console.log('236 down');
     //     car_listCar.scroll({top:count += 236,behavior:'smooth'})
     // }
-   
-    
+
+
 })
-car_arrowUp.addEventListener('click',(e)=> {
-    car_listCar.scroll({top: 0,behavior:'smooth'})
+car_arrowUp.addEventListener('click', (e) => {
+    car_listCar.scroll({ top: 0, behavior: 'smooth' })
     // if(heightListCar == 517){
-       
+
     // }
-  
+
     // else if(heightListCar == 420){
     //     car_listCar.scroll({top: count -= 420,behavior:'smooth'})
     // }
@@ -132,122 +152,122 @@ car_arrowUp.addEventListener('click',(e)=> {
     //     console.log('236 up');
     //     car_listCar.scroll({top: count -= 236,behavior:'smooth'})
     // }
-  
+
 })
 
 //  scroll list map
-map_arrowDown.addEventListener('click',(e)=> {
-    map_listCar.scroll({top:500,behavior:'smooth'})
-    
+map_arrowDown.addEventListener('click', (e) => {
+    map_listCar.scroll({ top: 500, behavior: 'smooth' })
+
 })
-map_arrowUp.addEventListener('click',(e)=> {
-    map_listCar.scroll({top:0,behavior:'smooth'})
+map_arrowUp.addEventListener('click', (e) => {
+    map_listCar.scroll({ top: 0, behavior: 'smooth' })
 })
 
 
 
 // to section figure
-blockFigure.onclick = function(){
-    
-     
-    if(appWidth > 1200){
+blockFigure.onclick = function () {
+
+
+    if (appWidth > 1200) {
         console.log('>1200');
-        window.scrollTo({top:positionFigure})
+        window.scrollTo({ top: positionFigure })
     }
-    else if(appWidth <= 376){
+    else if (appWidth <= 376) {
         console.log('376');
-        window.scrollTo({top:positionFigure })
+        window.scrollTo({ top: positionFigure })
     }
-    else if(appWidth <= 650){
+    else if (appWidth <= 650) {
         console.log('650');
-        window.scrollTo({top:positionFigure - 100})
+        window.scrollTo({ top: positionFigure - 100 })
     }
-   
-    else if(appWidth <= 768){
+
+    else if (appWidth <= 768) {
         console.log('768');
-        window.scrollTo({top:positionFigure - 80})
+        window.scrollTo({ top: positionFigure - 80 })
     }
-    else if(appWidth <= 1200 ){
+    else if (appWidth <= 1200) {
         console.log('1200');
-        window.scrollTo({top:positionFigure - 30})
+        window.scrollTo({ top: positionFigure - 30 })
     }
-    
+
 
 }
 
 // to section car
-blockCar.onclick = function(){
-    if(appWidth > 1200){
+blockCar.onclick = function () {
+    if (appWidth > 1200) {
         console.log('>1200');
-        window.scrollTo({top:positionCar})
+        window.scrollTo({ top: positionCar })
     }
-    else if(appWidth <= 376){
+    else if (appWidth <= 376) {
         console.log('376');
-        window.scrollTo({top:positionCar })
+        window.scrollTo({ top: positionCar })
     }
-    else if(appWidth <= 650){
+    else if (appWidth <= 650) {
         console.log('650');
-        window.scrollTo({top:positionCar - 100})
+        window.scrollTo({ top: positionCar - 100 })
     }
-   
-    else if(appWidth <= 768){
+
+    else if (appWidth <= 768) {
         console.log('768');
-        window.scrollTo({top:positionCar - 80})
+        window.scrollTo({ top: positionCar - 80 })
     }
-    else if(appWidth <= 1200 ){
+    else if (appWidth <= 1200) {
         console.log('1200');
-        window.scrollTo({top:positionCar - 30})
+        window.scrollTo({ top: positionCar - 30 })
     }
-    
+
 }
 
 // to section map
-blockMap.onclick = function(){
-    if(appWidth > 1200){
+blockMap.onclick = function () {
+    if (appWidth > 1200) {
         console.log('>1200');
-        window.scrollTo({top:positionMap})
+        window.scrollTo({ top: positionMap })
     }
-    else if(appWidth <= 376){
+    else if (appWidth <= 376) {
         console.log('376');
-        window.scrollTo({top:positionMap})
+        window.scrollTo({ top: positionMap })
     }
-    else if(appWidth <= 650){
+    else if (appWidth <= 650) {
         console.log('650');
-        window.scrollTo({top:positionMap - 100})
+        window.scrollTo({ top: positionMap - 100 })
     }
-   
-    else if(appWidth <= 768){
+
+    else if (appWidth <= 768) {
         console.log('768');
-        window.scrollTo({top:positionMap - 80})
+        window.scrollTo({ top: positionMap - 80 })
     }
-    else if(appWidth <= 1200 ){
+    else if (appWidth <= 1200) {
         console.log('1200');
-        window.scrollTo({top:positionMap - 30})
+        window.scrollTo({ top: positionMap - 30 })
     }
 }
 
 // to section map
-blockSpecialPlay.onclick = function(){
-    if(appWidth > 1200){
+blockSpecialPlay.onclick = function () {
+    if (appWidth > 1200) {
         console.log('>1200');
-        window.scrollTo({top:positionSpecialPlay})
+        window.scrollTo({ top: positionSpecialPlay })
     }
-    else if(appWidth <= 376){
+    else if (appWidth <= 376) {
         console.log('376');
-        window.scrollTo({top:positionSpecialPlay })
+        window.scrollTo({ top: positionSpecialPlay })
     }
-    else if(appWidth <= 650){
+    else if (appWidth <= 650) {
         console.log('650');
-        window.scrollTo({top:positionSpecialPlay - 100})
+        window.scrollTo({ top: positionSpecialPlay - 100 })
     }
-   
-    else if(appWidth <= 768){
+
+    else if (appWidth <= 768) {
         console.log('768');
-        window.scrollTo({top:positionSpecialPlay - 80})
+        window.scrollTo({ top: positionSpecialPlay - 80 })
     }
-    else if(appWidth <= 1200 ){
+    else if (appWidth <= 1200) {
         console.log('1200');
-        window.scrollTo({top:positionSpecialPlay - 30})
+        window.scrollTo({ top: positionSpecialPlay - 30 })
     }
 }
 
